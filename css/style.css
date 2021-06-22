@@ -1,0 +1,140 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+
+ body {
+     background-color: #e5e5e5;
+     font-family: 'Roboto';
+     text-align: center;
+ }
+
+
+
+ header,
+ section,
+ footer {
+     width: 1024px;
+     display: inline-block;
+ }
+
+ /* header */
+
+ header {
+     position: relative;
+     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+ }
+
+ .box-top {
+     background-color: #1CD1B0;
+     font-size: 15px;
+     text-align: left;
+     height: 38px;
+     line-height: 35px;
+     padding: 0px 10px;
+
+ }
+
+ .nav {
+     background-color: #00669F;
+     font-weight: 400;
+     font-size: 40px;
+     height: 101px;
+     line-height: 100px;
+     padding: 0px 28px;
+     text-align: left;
+
+ }
+
+ /* section */
+
+ section {
+     background-color: #fff;
+     padding: 151px 0px;
+
+ }
+
+ .card {
+     display: inline-block;
+     width: 300px;
+     height: 529px;
+     margin: 18px;
+     position: relative;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .icon-heart {
+     position: absolute;
+     left: 21px;
+     top: 15px;
+
+ }
+
+
+ .cover {
+
+     height: 193px;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .card-batman .cover {
+     background-image: url('/img/cover-batman.png');
+ }
+
+ .card-hq .cover {
+     background-image: url('/img/cover-hq.png');
+ }
+
+ .avatar-batman {
+     position: absolute;
+     top: 128px;
+     left: 90px;
+     border-radius: 50%;
+ }
+
+ .content {
+     background-color: #F3F3F3;
+     height: 336px;
+     padding-top: 70px;
+ }
+
+ .title-content {
+     font-size: 30px;
+     line-height: 35px;
+ }
+
+ .text-content {
+     font-size: 16px;
+     line-height: 19px;
+     text-align: left;
+     margin: 10px 17px 37px 16px;
+ }
+
+ .btn {
+     border: none;
+     font-size: 15px;
+     line-height: 18px;
+     color: #F3F3F3;
+     width: 128.78px;
+     height: 48.52px;
+     background: #00669F;
+ }
+
+
+
+
+
+ /* footer */
+
+ footer {
+     background-color: #00669F;
+     height: 51px;
+     color: #FFF9F9;
+     text-align: left;
+     font-size: 16px;
+     line-height: 19px;
+     padding: 16px
+ }
