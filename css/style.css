@@ -81,11 +81,11 @@
  }
 
  .card-batman .cover {
-     background-image: url('/img/cover-batman.png');
+     background-image: url('img/cover-batman.png');
  }
 
  .card-hq .cover {
-     background-image: url('/img/cover-hq.png');
+     background-image: url('img/cover-hq.png');
  }
 
  .avatar-batman {
